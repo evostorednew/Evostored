@@ -6,6 +6,37 @@
   <title>Team – evostored</title>
   <meta name="description" content="Das Team hinter evostored." />
   <link rel="stylesheet" href="styles.css" />
+  <!-- Symmetrische Anordnung der Teamkarten -->
+  <style>
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      justify-items: center;
+      margin-top: 2rem;
+    }
+    .team-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 280px;
+    }
+    .team-photo {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+    .team-name {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    @media (max-width: 600px) {
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -30,7 +61,6 @@
 <section class="hero" style="background-image:url('hero.png')">
   <div class="hero-content">
     <h1>Unser Team</h1>
-    <!-- Angepasst auf drei Personen -->
     <p>Drei Menschen, ein gemeinsames Ziel.</p>
   </div>
 </section>
@@ -39,37 +69,36 @@
   <div class="content-container">
     <div class="team-intro">
       <h2>Die Menschen hinter evostored</h2>
-      <p></p>
     </div>
 
     <div class="team-grid">
       <!-- Teammitglied Maximilian Schwarz -->
       <article class="team-card">
         <div class="team-photo-wrap">
-          <img class="team-photo" src="team-maximilian-schwarz.jpg" alt="Maximilian Schwarz" loading="lazy">
+          <img class="team-photo" src="team-maximilian-schwarz.jpg" alt="Maximilian Schwarz" loading="lazy" />
         </div>
         <div class="team-body">
-          <h3 class="team-name">Maximilian Schwarz</h3>
+          <h3 class="team-name">Maximilian&nbsp;Schwarz</h3>
         </div>
       </article>
 
       <!-- Teammitglied Felix Schmidt -->
       <article class="team-card">
         <div class="team-photo-wrap">
-          <img class="team-photo" src="team-felix-schmidt.jpg" alt="Felix Schmidt" loading="lazy">
+          <img class="team-photo" src="team-felix-schmidt.jpg" alt="Felix Schmidt" loading="lazy" />
         </div>
         <div class="team-body">
-          <h3 class="team-name">Felix Schmidt</h3>
+          <h3 class="team-name">Felix&nbsp;Schmidt</h3>
         </div>
       </article>
 
       <!-- Teammitglied Maximilian Klekamp -->
       <article class="team-card">
         <div class="team-photo-wrap">
-          <img class="team-photo" src="team-maximilian-klekamp.jpg" alt="Maximilian Klekamp" loading="lazy">
+          <img class="team-photo" src="team-maximilian-klekamp.jpg" alt="Maximilian Klekamp" loading="lazy" />
         </div>
         <div class="team-body">
-          <h3 class="team-name">Maximilian Klekamp</h3>
+          <h3 class="team-name">Maximilian&nbsp;Klekamp</h3>
         </div>
       </article>
     </div>
