@@ -1,0 +1,124 @@
+/* Base team styling and other styles from provided CSS */
+
+/* Hover effect for team cards */
+.team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(1,45,82,.12);
+  border-color: rgba(1,45,82,.14);
+}
+
+.team-photo-wrap {
+  position: relative;
+  aspect-ratio: 16/11;
+  background: linear-gradient(135deg, rgba(0,153,78,.18), rgba(1,45,82,.12));
+}
+
+.team-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(1);
+  transition: filter .18s ease, transform .18s ease;
+}
+
+.team-card:hover .team-photo {
+  filter: grayscale(0);
+  transform: scale(1.02);
+}
+
+.team-body {
+  padding: 1.1rem 1.1rem 1.25rem 1.1rem;
+}
+
+.team-name {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--color-primary, #012d52);
+  letter-spacing: .2px;
+}
+
+.team-role {
+  margin: .35rem 0 .75rem 0;
+  font-weight: 700;
+  color: var(--color-secondary, #00994e);
+}
+
+.team-bio {
+  margin: 0;
+  color: rgba(1,45,82,.85);
+  line-height: 1.55;
+}
+
+.team-meta {
+  margin-top: .95rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.chip {
+  font-size: .85rem;
+  font-weight: 700;
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  background: rgba(1,45,82,.06);
+  color: rgba(1,45,82,.9);
+  border: 1px solid rgba(1,45,82,.10);
+}
+
+.team-cta {
+  margin: 2.5rem auto 0 auto;
+  max-width: 900px;
+  text-align: center;
+  padding: 1.75rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(0,153,78,.10), rgba(1,45,82,.06));
+  border: 1px solid rgba(1,45,82,.10);
+}
+
+@media (max-width: 920px) {
+  .team-card { grid-column: span 12; }
+  .team-photo-wrap { aspect-ratio: 16/12; }
+}
+
+/* Form styling (Kontakt) */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid rgba(1,45,82,0.2);
+  border-radius: 6px;
+  font-family: var(--body-font, Inter, sans-serif);
+  font-size: 1rem;
+  background: #fff;
+}
+form textarea { resize: vertical; min-height: 140px; }
+form button.btn { border: none; cursor: pointer; }
+
+/* Impressum page styling */
+.legal-card {
+  background: #fff;
+  border: 1px solid rgba(1,45,82,.08);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(1,45,82,.06);
+}
+.legal-card h2 {
+  margin: 18px 0 8px;
+  color: var(--color-primary, #012d52);
+}
+.legal-block {
+  margin: 0 0 14px;
+  line-height: 1.6;
+  color: rgba(1,45,82,.85);
+}
+.legal-block a {
+  color: var(--color-secondary, #00994e);
+  text-decoration: none;
+}
+.legal-block a:hover {
+  text-decoration: underline;
+}
