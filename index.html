@@ -1,153 +1,359 @@
-diff --git a/index.html b/index.html
-index 97449d059d3332cec52d2e46d5b0917fea12714c..6e41a63d12ab977eef82c0e6c80d59d8d976b9eb 100644
---- a/index.html
-+++ b/index.html
-@@ -1,68 +1,94 @@
- <!DOCTYPE html>
--
- <html lang="de">
- <head>
--<meta charset="utf-8"/>
--<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
--<title>evostored – Energie gemeinsa denken</title>
--<link href="styles.css" rel="stylesheet"/>
--<meta content="evostored verbindet 100 % erneuerbare Stromerzeugung, Stromhandel und Batteriespeicher zu einer intelligenten, digitalen Energieplattform." name="description"/>
-+  <meta charset="utf-8"/>
-+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-+  <title>evostored – Energie gemeinsam denken</title>
-+  <meta name="description" content="evostored verbindet 100 % erneuerbare Stromerzeugung, Stromhandel und Batteriespeicher zu einer intelligenten, digitalen Energieplattform."/>
-+  <link rel="stylesheet" href="styles.css"/>
- </head>
- <body>
- <header>
--<div class="nav-container">
--<div class="logo"><img alt="evostored Logo" src="logo.png"/></div>
--<nav>
--<ul><li><a class="active" href="index.html">Startseite</a></li><li><a href="vision.html">Vision &amp; Mission</a></li><li><a href="produkt.html">Konzept</a></li><li><a href="kunden.html">Für Kunden</a></li><li><a href="partner.html">Für Partner</a></li><li><a href="team.html">Team</a></li><li><a href="ueber-uns.html">Über uns</a></li><li><a href="kontakt.html">Kontakt</a></li></ul><li><a href="impressum.html">Impressum</a></li>
--</nav>
--</div>
-+  <div class="nav-container">
-+    <div class="logo"><img src="logo.png" alt="evostored Logo"/></div>
-+    <nav>
-+      <ul>
-+        <li><a class="active" href="index.html">Startseite</a></li><li><a href="vision.html">Vision &amp; Mission</a></li><li><a href="produkt.html">Konzept</a></li><li><a href="kunden.html">Für Kunden</a></li><li><a href="partner.html">Für Partner</a></li><li><a href="team.html">Team</a></li><li><a href="ueber-uns.html">Über uns</a></li><li><a href="kontakt.html">Kontakt</a></li><li><a href="impressum.html">Impressum</a></li>
-+      </ul>
-+    </nav>
-+  </div>
- </header>
--<section class="hero">
--<div class="hero-content">
--<h1>Energie gemeinsam denken</h1>
--<p>evostored verbindet erneuerbare Energie, Handel und Speicher zu einer digitalen Plattform. Für 100 % sauberen Strom – fair, transparent und flexibel.</p>
--<a class="btn" href="produkt.html">So funktioniert evostored</a>
--</div>
-+
-+<section class="hero" style="background-image: url('hero.png');">
-+  <div class="hero-content">
-+    <h1>Energie gemeinsam neu denken.</h1>
-+    <p>evostored verbindet Erzeugung, Handel und Speicher zu einer digitalen Energieplattform – transparent, flexibel und bereit für 100 % erneuerbaren Strom.</p>
-+    <a class="btn" href="produkt.html">So funktioniert evostored</a>
-+  </div>
- </section>
-+
- <section class="section light">
--<h2>Unsere Vorteile</h2>
--<div class="features">
--<div class="feature-card">
--<!-- Leaf / renewable icon -->
--<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C7.03 2 3 6.03 3 11c0 3.87 2.88 7.13 6.69 7.87l.49.09.09.49C10.87 21.12 14.13 24 18 24c4.97 0 9-4.03 9-9s-4.03-9-9-9c-3.87 0-7.13 2.88-7.87 6.69l-.09.49-.49.09C6.88 12.87 3 9.61 3 5.74 3 3.24 5.24 1 7.74 1c2.08 0 3.85 1.43 4.36 3.41L12 4.4l.9-.99C14.1 1.43 15.87 0 18 0c2.5 0 4.74 2.24 4.74 4.74 0 3.87-3.13 7-7 7-4.97 0-9 4.03-9 9s4.03 9 9 9c3.87 0 7.13-2.88 7.87-6.69l.09-.49.49-.09C21.12 13.13 24 9.87 24 6c0-4.97-4.03-9-9-9-3.87 0-7.13 2.88-7.87 6.69l-.09.49-.49.09C6.88 9.13 3 5.87 3 2Z"></path></svg>
--<h3>100 % Grünstrom</h3>
--<p>Wir liefern ausschließlich Strom aus erneuerbaren Quellen wie Wind und Sonne – kein fossiler Mix.</p>
--</div>
--<div class="feature-card">
--<!-- handshake / partnership icon -->
--<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.21 0 4-1.79 4-4V4h2v4c0 3.31-2.69 6-6 6H5.83l1.59 1.59L6 17l-4-4 4-4 1.41 1.41L5.83 11H12zm6.59 5L23 17.41 21.59 19 19 16.41 16.41 19 15 17.59 17.59 15 15 12.41 16.41 11 19 13.59 21.59 11 23 12.41 20.41 15 23 17.59 21.59 19 19 16.41 16.41 19 15 17.59 17.59 15 19 17.59z"></path></svg>
--<h3>Direkte Partnerschaften</h3>
--<p>Wir arbeiten direkt mit Wind- und Solarparkbetreiber:innen zusammen und umgehen unnötige Zwischenhändler.</p>
--</div>
--<div class="feature-card">
--<!-- battery icon -->
--<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 6V4c0-1.1-.9-2-2-2H6C4.9 2 4 2.9 4 4v2H2v12h2v2c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-2h2V6h-2zm-2 12H6V6h8v12z"></path></svg>
--<h3>Speicher statt Verschwendung</h3>
--<p>Unsere Batteriespeicher gleichen Preisschwankungen aus und nutzen überschüssigen Strom effizient.</p>
--</div>
--<div class="feature-card">
--<!-- eye / transparency icon -->
--<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 13c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm0-10a4 4 0 100 8 4 4 0 000-8z"></path></svg>
--<h3>Transparenz &amp; Fairness</h3>
--<p>Wir zeigen offen, woher der Strom kommt und wie er gehandelt wird – ohne versteckte Gebühren.</p>
--</div>
--</div>
-+  <div class="content-container">
-+    <div class="metrics-grid">
-+      <article class="card">
-+        <div class="metric-value">100 %</div>
-+        <p class="metric-label">Erneuerbarer Strommix</p>
-+      </article>
-+      <article class="card">
-+        <div class="metric-value">24/7</div>
-+        <p class="metric-label">Digitale Transparenz der Stromflüsse</p>
-+      </article>
-+      <article class="card">
-+        <div class="metric-value">+Flex</div>
-+        <p class="metric-label">Batteriespeicher gegen Preisspitzen</p>
-+      </article>
-+    </div>
-+
-+    <div class="grid-2">
-+      <div class="chart-panel">
-+        <h2>Systemwirkung auf einen Blick</h2>
-+        <p>Visualisierte Wirkung unseres Modells auf Kostenstabilität und Grünstromnutzung.</p>
-+        <div class="bar-chart" aria-label="Leistungsindikatoren">
-+          <div class="bar-row"><span>Grünstromanteil</span><div class="bar-track"><div class="bar-fill" style="width:96%"></div></div><strong>96%</strong></div>
-+          <div class="bar-row"><span>Kostenstabilität</span><div class="bar-track"><div class="bar-fill secondary" style="width:83%"></div></div><strong>83%</strong></div>
-+          <div class="bar-row"><span>Netzflexibilität</span><div class="bar-track"><div class="bar-fill accent" style="width:74%"></div></div><strong>74%</strong></div>
-+        </div>
-+      </div>
-+      <div class="card">
-+        <h2>Unsere Vorteile</h2>
-+        <div class="features">
-+          <article class="feature-card">
-+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C7 2 3 6 3 11c0 4 3 7 7 7h1c0 3 3 6 7 6 5 0 9-4 9-9s-4-9-9-9c-3 0-6 2-7 5-1-5-5-9-11-9z"/></svg>
-+            <h3>100 % Grünstrom</h3><p>Direkte Herkunft aus Wind- und Solaranlagen.</p>
-+          </article>
-+          <article class="feature-card">
-+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11h8a5 5 0 1 0 0-10h-1v2h1a3 3 0 1 1 0 6H4l2-2-1-1-4 4 4 4 1-1-2-2zm16 2-2 2 1 1 4-4-4-4-1 1 2 2H12a5 5 0 1 0 0 10h1v-2h-1a3 3 0 1 1 0-6h8z"/></svg>
-+            <h3>Direkte Partnerschaften</h3><p>Weniger Zwischenhändler, mehr Wirkung und Planbarkeit.</p>
-+          </article>
-+          <article class="feature-card">
-+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7V3H7v4H3v14h18V7h-4zm-8 0V5h6v2H9zm10 12H5V9h14v10z"/></svg>
-+            <h3>Speicherintelligenz</h3><p>Überschüsse speichern und bei Bedarf kontrolliert einsetzen.</p>
-+          </article>
-+          <article class="feature-card">
-+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4C6 4 2 8 1 12c1 4 5 8 11 8s10-4 11-8c-1-4-5-8-11-8zm0 13a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg>
-+            <h3>Transparenz</h3><p>Klare Daten zur Herkunft, Nutzung und Preisbildung.</p>
-+          </article>
-+        </div>
-+      </div>
-+    </div>
-+  </div>
- </section>
-+
- <section class="section dark">
--<div class="content-container">
--<h2>Warum evostored?</h2>
--<p>Der Energiemarkt steht 2025 vor großen Umbrüchen. Bereits 2024 stammten mehr als die Hälfte des deutschen Stroms aus erneuerbaren Quellen, aber die zunehmende Menge an Wind- und Solarenergie stellt das Stromnetz vor enorme Herausforderungen – Schwankungen und Dunkelflauten führen zu Preisspitzen. Gleichzeitig wächst der Markt für Batteriespeicher rasant, weil Batteriesysteme als Schlüssel für Flexibilität und Versorgungssicherheit gelten.</p>
--<p>evostored setzt hier an: Wir verbinden Wind- und Solarparks direkt mit Kunden und nutzen intelligente Batteriespeicher, um Überschüsse zu speichern und bei Knappheit freizugeben. So schaffen wir eine faire, digitale Plattform für wirklich grünen Strom.</p>
--<a class="btn" href="vision.html">Unsere Vision</a>
--</div>
-+  <div class="content-container">
-+    <div class="section-intro">
-+      <h2>Warum evostored?</h2>
-+      <p>Der Energiemarkt braucht neue Steuerungslogik: mehr erneuerbare Einspeisung, weniger Verschwendung, bessere Preisstabilität. Genau dort setzt evostored an.</p>
-+    </div>
-+    <a class="btn btn-secondary" href="vision.html">Unsere Vision entdecken</a>
-+  </div>
- </section>
--<footer>
--<p>© 2025 evostored – Alle Rechte vorbehalten.</p>
--</footer>
-+
-+<footer><p>© 2025 evostored – Alle Rechte vorbehalten.</p></footer>
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>evostored – Das intelligente Energiesystem für vernetzte Heimspeicher</title>
+  <meta name="description" content="evostored vernetzt Heimspeicher zu einer intelligenten Energieplattform. AI-basierte Optimierung senkt Stromkosten, stabilisiert das Netz und macht Energie transparenter." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">
+          <img src="logo.png" alt="evostored Logo" />
+          <span class="brand-copy">
+            <span class="brand-name">evostored</span>
+            <span class="brand-tag">Intelligente Energie-Infrastruktur für Haushalte</span>
+          </span>
+        </a>
+        <nav class="nav-links" aria-label="Hauptnavigation">
+          <a class="active" href="index.html">Start</a>
+          <a href="produkt.html">Produkt</a>
+          <a href="vision.html">Vision</a>
+          <a href="kunden.html">Für Haushalte</a>
+          <a href="partner.html">Für Partner</a>
+          <a href="team.html">Team</a>
+          <a href="ueber-uns.html">Über uns</a>
+          <a href="kontakt.html">Kontakt</a>
+          <a href="impressum.html">Impressum</a>
+        </nav>
+        <a class="nav-cta" href="kontakt.html">Pilot anfragen</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <span class="eyebrow">AI-driven home battery network</span>
+            <h1>Die Trading-Layer für dezentrale Energie zuhause.</h1>
+            <p>evostored verbindet Haushalte mit Batteriespeichern zu einem intelligenten Energienetz. Unsere Plattform kauft Strom dann, wenn er günstig ist, nutzt Speicher dann, wenn Energie wertvoll ist, und automatisiert diese Optimierung vollständig im Hintergrund.</p>
+            <div class="hero-actions">
+              <a class="button" href="kontakt.html">Interesse anmelden</a>
+              <a class="button-ghost" href="produkt.html">So funktioniert es</a>
+            </div>
+            <div class="hero-note">
+              <span>Für Haushalte mit Speicher, Solaranlage oder dynamischem Tarif</span>
+              <span>Positioniert als Premium-Energiesystem statt klassischer Stromanbieter</span>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="Leistungsübersicht">
+            <span class="panel-label">Live-Wirkung des Systems</span>
+            <h2 class="panel-title">Preisfenster erkennen. Speicher intelligent steuern. Kosten glätten.</h2>
+            <p class="panel-subtitle">Die Plattform reagiert auf Day-Ahead- und Intraday-Signale, um Energie günstiger einzukaufen und wertvoller zu nutzen.</p>
+            <div class="hero-metrics">
+              <div class="mini-stat">
+                <strong>20–25%</strong>
+                <span>potenzielle Kostensenkung durch Optimierung</span>
+              </div>
+              <div class="mini-stat">
+                <strong>0x</strong>
+                <span>manuelle Eingriffe im Alltag erforderlich</span>
+              </div>
+              <div class="mini-stat">
+                <strong>24/7</strong>
+                <span>Transparenz über App, Preise und Batterieeinsatz</span>
+              </div>
+            </div>
+            <div class="price-ladder">
+              <div class="price-row">
+                <span>Nachtladen</span>
+                <div class="track"><div class="fill" style="width: 34%"></div></div>
+                <strong>günstig</strong>
+              </div>
+              <div class="price-row">
+                <span>Tagesbetrieb</span>
+                <div class="track"><div class="fill warn" style="width: 62%"></div></div>
+                <strong>neutral</strong>
+              </div>
+              <div class="price-row">
+                <span>Abendspitze</span>
+                <div class="track"><div class="fill alert" style="width: 88%"></div></div>
+                <strong>teuer</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-copy">
+              <span class="kicker">Problem</span>
+              <h2>Erneuerbare Energie ist da. Intelligente Steuerung fehlt oft noch.</h2>
+              <p>Viele Haushalte erzeugen, speichern oder verbrauchen Energie bereits flexibel. Trotzdem wird ein Großteil dieses Potenzials heute nicht koordiniert genutzt. Strompreise schwanken, Speicher laufen isoliert, und echte Transparenz fehlt.</p>
+            </div>
+          </div>
+
+          <div class="grid-4">
+            <article class="stat-card">
+              <strong>Dezentral</strong>
+              <p>Heimspeicher sind vorhanden, aber selten als vernetzter Flexibilitäts-Pool organisiert.</p>
+            </article>
+            <article class="stat-card">
+              <strong>Volatil</strong>
+              <p>Marktpreise ändern sich im Tagesverlauf stark. Ohne Automatisierung bleibt dieser Vorteil ungenutzt.</p>
+            </article>
+            <article class="stat-card">
+              <strong>Intransparent</strong>
+              <p>Haushalte sehen oft weder echte Preisfenster noch den wirtschaftlichen Wert ihres Speichers.</p>
+            </article>
+            <article class="stat-card">
+              <strong>Unskaliert</strong>
+              <p>Was im Einzelfall wirkt, entfaltet als koordinierte Community eine deutlich größere Netz- und Marktwirkung.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-light">
+        <div class="container story-layout">
+          <div class="story-panel">
+            <span class="kicker">Insight</span>
+            <h2>Ein Heimspeicher ist kein Einzelgerät. Er ist ein Knoten in einer neuen Energie-Infrastruktur.</h2>
+            <p>evostored denkt Batteriespeicher nicht als Zubehör, sondern als aktiv steuerbare Ressource. Wenn viele Speicher koordiniert reagieren, entsteht ein intelligentes Netz aus Nachfrage, Kapazität und Software.</p>
+            <ul>
+              <li>Strom wird in günstigen oder negativen Preisphasen bezogen.</li>
+              <li>Gespeicherte Energie wird in teuren Stunden eingesetzt.</li>
+              <li>Die Steuerung läuft automatisiert, datengetrieben und nachvollziehbar.</li>
+            </ul>
+          </div>
+
+          <div class="story-stack">
+            <article class="story-panel">
+              <span class="icon-badge">AI</span>
+              <h3>Forecasting als Kernlogik</h3>
+              <p>Preissignale, Lastverhalten und Speicherverfügbarkeit werden in operative Entscheidungen übersetzt.</p>
+            </article>
+            <article class="story-panel">
+              <span class="icon-badge">Netz</span>
+              <h3>Community-Effekt statt Insel-Lösung</h3>
+              <p>Je mehr Haushalte teilnehmen, desto stärker wird die Plattform als gemeinsamer Flexibilitäts-Pool.</p>
+            </article>
+            <article class="story-panel">
+              <span class="icon-badge">App</span>
+              <h3>Volle Transparenz im Alltag</h3>
+              <p>Nutzer sehen, wann optimiert wird, wie viel gespart wurde und welchen Beitrag ihr System leistet.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-copy">
+              <span class="kicker">Solution</span>
+              <h2>Eine Plattform, die Markt, Speicher und Haushalt in Echtzeit zusammenführt.</h2>
+              <p>Das Ergebnis ist ein System, das intelligent wirkt, ohne den Alltag komplizierter zu machen.</p>
+            </div>
+          </div>
+
+          <div class="grid-3">
+            <article class="feature-card">
+              <span class="icon-badge">01</span>
+              <h3>AI-gesteuerte Optimierung</h3>
+              <p>Die Plattform erkennt günstige Preisfenster, kalkuliert Lade- und Entladezeitpunkte und optimiert automatisch.</p>
+            </article>
+            <article class="feature-card">
+              <span class="icon-badge">02</span>
+              <h3>Premium-Nutzererlebnis</h3>
+              <p>Ein modernes App-Erlebnis macht komplexe Energie- und Marktdaten klar verständlich und vertrauenswürdig.</p>
+            </article>
+            <article class="feature-card">
+              <span class="icon-badge">03</span>
+              <h3>Software-first skalierbar</h3>
+              <p>Das Modell wächst über Software, Daten und Standardisierung statt über schwerfällige operative Prozesse.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-light">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-copy">
+              <span class="kicker">How It Works</span>
+              <h2>Vom Marktsignal zur automatisch optimierten Energieentscheidung.</h2>
+            </div>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-step">
+              <span class="step-index">1</span>
+              <h3>Marktdaten lesen</h3>
+              <p>Day-Ahead- und Intraday-Preise werden laufend ausgewertet und mit Systemdaten abgeglichen.</p>
+            </article>
+            <article class="timeline-step">
+              <span class="step-index">2</span>
+              <h3>Speicherpotenzial berechnen</h3>
+              <p>Kapazität, SoC, Haushaltsverbrauch und lokale Erzeugung fließen in die Optimierung ein.</p>
+            </article>
+            <article class="timeline-step">
+              <span class="step-index">3</span>
+              <h3>Automatisch steuern</h3>
+              <p>Das System lädt und entlädt im richtigen Moment, ohne dass Nutzer aktiv handeln müssen.</p>
+            </article>
+            <article class="timeline-step">
+              <span class="step-index">4</span>
+              <h3>Wirkung transparent machen</h3>
+              <p>In der App werden Savings, Netzbeitrag und Systemverhalten klar visualisiert.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container story-layout">
+          <div class="story-panel">
+            <span class="kicker">Technology</span>
+            <h2>Gebaut für operative Intelligenz statt reines Monitoring.</h2>
+            <p>evostored ist nicht nur ein Dashboard. Die Plattform ist eine Entscheidungs- und Steuerungsschicht für vernetzte Heimspeicher.</p>
+            <ul>
+              <li>Forecasting und Marktlogik als Software-Kern</li>
+              <li>Reale Preisfenster statt pauschaler Zeitregeln</li>
+              <li>Skalierbare Koordination über viele dezentrale Haushalte</li>
+            </ul>
+          </div>
+
+          <div class="signal-grid" aria-label="Technologie-Signale">
+            <div class="signal-card">
+              <span class="signal-dot"></span>
+              <div>
+                <strong>Preisfenster erkannt</strong>
+                <span>negative und günstige Marktphasen werden gezielt genutzt</span>
+              </div>
+              <span class="signal-chip">live</span>
+            </div>
+            <div class="signal-card">
+              <span class="signal-dot"></span>
+              <div>
+                <strong>Haushaltslogik integriert</strong>
+                <span>Automatisierung berücksichtigt lokale Verbrauchsmuster</span>
+              </div>
+              <span class="signal-chip">adaptive</span>
+            </div>
+            <div class="signal-card">
+              <span class="signal-dot"></span>
+              <div>
+                <strong>Community-Effekt aktiv</strong>
+                <span>viele Speicher bilden gemeinsam eine wertvolle virtuelle Ressource</span>
+              </div>
+              <span class="signal-chip">scalable</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-light">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-copy">
+              <span class="kicker">Benefits</span>
+              <h2>Warum das für Haushalte, Markt und Energiewende relevant ist.</h2>
+            </div>
+          </div>
+
+          <div class="grid-3">
+            <article class="feature-card">
+              <span class="icon-badge">€</span>
+              <h3>Spürbare Kostenvorteile</h3>
+              <p>Durch intelligentes Laden und Entladen werden teure Bezugsmomente reduziert und günstige Marktphasen besser genutzt.</p>
+            </article>
+            <article class="feature-card">
+              <span class="icon-badge">Auto</span>
+              <h3>Keine Verhaltensänderung nötig</h3>
+              <p>Das System übernimmt die operative Komplexität im Hintergrund. Nutzer müssen ihren Alltag nicht umstellen.</p>
+            </article>
+            <article class="feature-card">
+              <span class="icon-badge">Grid</span>
+              <h3>Mehr Stabilität im System</h3>
+              <p>Dezentrale Speicher werden Teil einer koordinierten Netzlogik statt nur individueller Einzellösungen.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-copy">
+              <span class="kicker">Trust</span>
+              <h2>Vertrauen entsteht durch Klarheit, Daten und glaubwürdige Positionierung.</h2>
+              <p>Die bisherige Website wirkte wie ein frühes Informationsprojekt. Die neue Richtung kommuniziert evostored als tech-getriebenes Energiesystem mit echter Marktlogik.</p>
+            </div>
+          </div>
+
+          <div class="grid-3">
+            <article class="quote-card">
+              <h3>Klare Wertargumentation</h3>
+              <p>Von “grüner Strom” zu “intelligente Energie-Infrastruktur für Haushalte mit Speicher”. Das erhöht Relevanz und Differenzierung deutlich.</p>
+            </article>
+            <article class="quote-card">
+              <h3>Höhere Premium-Wahrnehmung</h3>
+              <p>Stärkere Typografie, mehr Tiefe, bessere Abschnittslogik und konsistente Komponenten heben die Marke klar aus dem generischen Energiedesign heraus.</p>
+            </article>
+            <article class="quote-card">
+              <h3>Konversion mit weniger Reibung</h3>
+              <p>Mehrere präzise CTAs, klarere Einstiege für Haushalte und Partner sowie eine echte Kontaktseite führen schneller zur Kontaktaufnahme.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cta-band">
+          <span class="kicker">Call To Action</span>
+          <h2>Sie wollen Heimspeicher wirtschaftlich intelligenter nutzen?</h2>
+          <p>evostored richtet sich an Haushalte, Pilotkunden und Partner, die Energie nicht nur beziehen, sondern strategisch optimieren wollen. Lassen Sie uns über einen Pilot, eine Partnerschaft oder Ihren konkreten Use Case sprechen.</p>
+          <div class="cta-row">
+            <a class="button-secondary" href="kontakt.html">Pilotgespräch anfragen</a>
+            <a class="button-ghost" href="partner.html">Für Partner</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand">
+            <img src="logo.png" alt="evostored Logo" />
+            <span class="brand-copy">
+              <span class="brand-name">evostored</span>
+              <span class="brand-tag">Smart energy orchestration for households</span>
+            </span>
+          </div>
+          <p style="margin-top: 1rem;">Die digitale Front Door für ein intelligentes, transparentes und skalierbares Energiesystem auf Haushaltsebene.</p>
+        </div>
+        <div class="footer-links">
+          <a href="produkt.html">Produkt</a>
+          <a href="vision.html">Vision &amp; Mission</a>
+          <a href="kunden.html">Für Haushalte</a>
+          <a href="partner.html">Für Partner</a>
+        </div>
+        <div class="footer-meta">
+          <a href="kontakt.html">Kontakt</a>
+          <a href="team.html">Team</a>
+          <a href="ueber-uns.html">Über uns</a>
+          <a href="impressum.html">Impressum</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
